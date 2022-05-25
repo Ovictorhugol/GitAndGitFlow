@@ -1,3 +1,9 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    border-bottom: 1px solid black
+}
 ul{
     display: flex;
     flex-direction: row;
@@ -12,12 +18,35 @@ li{
 main{
     display: flex;
     justify-content: space-around;
+    margin: 7em 0 7em 0;
 }
 main img{
     max-width: 30%;
 }
 
+main img:hover{
+    max-width:31%;
+    cursor:pointer
+}
+
 footer{
-    display: flex;
+    display: flex;   
     justify-content: space-around;
+    padding: 1em;
+    border-top: 1px solid black;
+}
+footer ul {
+    display: flex;
+    flex-direction: column;
+}
+footer li{
+    margin-top: 0.5em;
+}
+footer p{
+    margin-top: 2em;
+}
+
+header li:hover{
+    color: gold;
+    cursor: pointer;
 }
