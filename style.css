@@ -1,0 +1,23 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: flex-end;
+    
+}
+
+li{
+    margin-left: 2em;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+}
+main img{
+    max-width: 30%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
